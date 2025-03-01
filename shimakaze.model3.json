@@ -18,16 +18,14 @@
           "File": "motions/idle/shimakaze.motion3.json",
           "Sound": "sounds/start1.mp3",
           "Text": "啊，提督君你回来啦。那今天也要和岛风一起努力哦。",
-          "Expression": "happy.exp3",
-          "Enabled": false
+          "Expression": "happy.exp3"
         },
         {
           "Name": "start2",
           "File": "motions/idle/shimakaze.motion3.json",
           "Sound": "sounds/start2.mp3",
           "Text": "你好，初次见面我是岛风哦。啊——不对，我是岛风型的一号舰岛风，您好。不需要那么毕恭毕敬？谢谢。那好，今后也请多多关照。哎呀，又不小心说客套话了……嘿嘿，失误失误。",
-          "Expression": "reluctant.exp3",
-          "Enabled": false
+          "Expression": "reluctant.exp3"
         }
       ],
       "Idle": [
