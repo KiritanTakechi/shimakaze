@@ -1,0 +1,867 @@
+{
+  "Version": 3,
+  "Type": 0,
+  "FileReferences": {
+    "Moc": "shimakaze.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "Physics": "physics/shimakaze.physics3.json",
+    "PhysicsV2": {
+      "File": "physics/shimakaze.physics3.json"
+    },
+    "Pose": "poses/shimakaze.pose3.json",
+    "Motions": {
+      "Start": [
+        {
+          "Name": "start1",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/start1.mp3",
+          "Text": "啊，提督君你回来啦。那今天也要和岛风一起努力哦。",
+          "Expression": "happy.exp3",
+          "Enabled": false
+        },
+        {
+          "Name": "start2",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/start2.mp3",
+          "Text": "你好，初次见面我是岛风哦。啊——不对，我是岛风型的一号舰岛风，您好。不需要那么毕恭毕敬？谢谢。那好，今后也请多多关照。哎呀，又不小心说客套话了……嘿嘿，失误失误。",
+          "Expression": "reluctant.exp3",
+          "Enabled": false
+        }
+      ],
+      "Idle": [
+        {
+          "Name": "idle",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Expression": "idle.exp3"
+        }
+      ],
+      "Tap": [
+        {
+          "Name": "asec1",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/asec1.mp3",
+          "Text": "（进击）相信这场战斗将会为谁带去笑容……岛风，出击！",
+          "Expression": "happy.exp3"
+        },
+        {
+          "Name": "asec2",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/asec2.mp3",
+          "Text": "（撤退·）嗯，回去吧……能回去就还能再回来的。",
+          "Expression": "sad.exp3"
+        },
+        {
+          "Name": "asec3",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/asec3.mp3",
+          "Text": "（通知）提督君，好像有通知了哦？",
+          "Expression": "idle.exp3"
+        },
+        {
+          "Name": "asec4",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/asec4.mp3",
+          "Text": "（通知）让我们看看有什么通知吧。",
+          "Expression": "happy.exp3"
+        },
+        {
+          "Name": "asec5",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/asec5.mp3",
+          "Text": "（任务）就算有这么多，和提督君两个人的话也能轻松应对。嗯，从哪里开始呢？",
+          "Expression": "happy.exp3"
+        },
+        {
+          "Name": "asec6",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/asec6.mp3",
+          "Text": "（任务）有好多啊。是随意挑选的时间啦。",
+          "Expression": "reluctant.exp3"
+        },
+        {
+          "Name": "asec7",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/asec7.mp3",
+          "Text": "（邮件）有给提督君的包裹哦。里面装着什么呢，有点期待呢。",
+          "Expression": "reluctant.exp3"
+        },
+        {
+          "Name": "asec8",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/asec8.mp3",
+          "Text": "（设置）我点我点我点点点……哎嘿嘿，感觉还行？",
+          "Expression": "happy.exp3"
+        },
+        {
+          "Name": "asec9",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/asec9.mp3",
+          "Text": "（载入中）偶尔也要，慢——慢——来，对吧。",
+          "Expression": "reluctant.exp3"
+        },
+        {
+          "Name": "dra1",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/dra1.mp3",
+          "Text": "（剧情1-2至1-8）夏雾酱……希望能成为朋友呢。好，我去找她说说话。诶嘿嘿，有点紧张呢。",
+          "Expression": "reluctant.exp3.json"
+        },
+        {
+          "Name": "dra2",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/dra2.mp3",
+          "Text": "（剧情2-1至2-4）深海舰的样子不太对劲？有种不好的预感……虽然说不太清楚，但总觉得心慌。",
+          "Expression": "idle.exp3.json"
+        },
+        {
+          "Name": "dra3",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/dra3.mp3",
+          "Text": "（剧情1-2至1-8）日常不可能一成不变，道理我是明白的，但还是希望和大家在一起的日子不要发生变化。虽然不知道能做到些什么，但为了这个岛风会努力训练和学习的。",
+          "Expression": "reluctant.exp3.json"
+        },
+        {
+          "Name": "dra4",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/dra4.mp3",
+          "Text": "（剧情2-1至2-4）深海舰究竟是什么呢？明明打了那么多次，却完全不了解她们。如果能交流的话，是不是能够和解呢？",
+          "Expression": "idle.exp3.json"
+        },
+        {
+          "Name": "fes1",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/fes1.mp3",
+          "Text": "（新年）新年快乐！新的一年也请多指教。哎，压岁钱吗？哎嘿，谢谢！",
+          "Expression": "happy.exp3.json"
+        },
+        {
+          "Name": "fes2",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/fes2.mp3",
+          "Text": "（情人节）巧克力……是为提督君做的。吃吗？……好吃吗？太好了。",
+          "Expression": "happy.exp3.json"
+        },
+        {
+          "Name": "fes3",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/fes3.mp3",
+          "Text": "（愚人节）今天是撒谎的日子？那就……唔……呃……诶嘿嘿，想不出来啊。",
+          "Expression": "reluctant.exp3.json"
+        },
+        {
+          "Name": "fes4",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/fes4.mp3",
+          "Text": "（万圣节前夜）Trick or treat！不给糖就捣蛋！哇，是樱饼！谢谢提督君！",
+          "Expression": "happy.exp3.json"
+        },
+        {
+          "Name": "fes5",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/fes5.mp3",
+          "Text": "（平安夜）圣诞树也准备好了，蛋糕也准备好了！诶嘿嘿，我已经做好了全套准备，大家一起来开开心心开派对吧。",
+          "Expression": "happy.exp3.json"
+        },
+        {
+          "Name": "fight1",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/fight1.mp3",
+          "Text": "（战斗开始）为了守护别人的笑容，岛风会战斗的！",
+          "Expression": "idle.exp3.json"
+        },
+        {
+          "Name": "fight2",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/fight2.mp3",
+          "Text": "（选中（战斗时））嗯！",
+          "Expression": "reluctant.exp3.json"
+        },
+        {
+          "Name": "fight3",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/fight3.mp3",
+          "Text": "（选中（战斗时））我试试哦！",
+          "Expression": "idle.exp3.json"
+        },
+        {
+          "Name": "fight4",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/fight4.mp3",
+          "Text": "（移动）是这边吧？",
+          "Expression": "reluctant.exp3.json"
+        },
+        {
+          "Name": "fight5",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/fight5.mp3",
+          "Text": "（移动）是那边吗？",
+          "Expression": "reluctant.exp3.json"
+        },
+        {
+          "Name": "fight6",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/fight6.mp3",
+          "Text": "（发动技能）就是为了自己也不能输啊！",
+          "Expression": "idle.exp3.json"
+        },
+        {
+          "Name": "fight7",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/fight7.mp3",
+          "Text": "（击沉敌舰）",
+          "Expression": "anger.exp3.json"
+        },
+        {
+          "Name": "fight8",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/fight8.mp3",
+          "Text": "（被击破）才不要，在这里结束呢……！",
+          "Expression": "sad.exp3.json"
+        },
+        {
+          "Name": "fight9",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/fight9.mp3",
+          "Text": "（指挥舰被攻击）提督君！……不行，不能被愤怒冲昏头脑……要冷静下来！",
+          "Expression": "anger.exp3.json"
+        },
+        {
+          "Name": "fight10",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/fight10.mp3",
+          "Text": "（S胜）赢了……我们赢啦！哎嘿嘿，成功了呢提督君！",
+          "Expression": "happy.exp3.json"
+        },
+        {
+          "Name": "fight11",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/fight11.mp3",
+          "Text": "（A胜）似乎有点太依赖直觉了？战斗时要再好好思考思考……",
+          "Expression": "reluctant.exp3.json"
+        },
+        {
+          "Name": "fight12",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/fight12.mp3",
+          "Text": "（B胜）这可不行……必须更努力些……！",
+          "Expression": "idle.exp3.json",
+          "BlendMode": 2
+        },
+        {
+          "Name": "interaction1",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Text": "大凤小姐，那个小小的袋子是什么呀？（大凤：这叫做护身符……是用来保佑大家的安全和健康的。）真好啊……岛风也想要。（大凤：那就一起来做吧。我也想给努力到现在的提督大人做一个。）",
+          "Expression": "happy.exp3.json",
+          "TextDuration": 10000
+        },
+        {
+          "Name": "interaction2",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/Conversation_12_2.mp3",
+          "Text": "（亚特兰大：附赠海洋战队弗莱彻连者卡片的零食……岛风酱喜欢这个动画吗？）嗯，最喜欢了。这是现在最有人气的英雄动画哦！",
+          "Expression": "happy.exp3.json"
+        },
+        {
+          "Name": "interaction3",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/Conversation_12_4.mp3",
+          "Text": "（亚特兰大：哦……英雄动画啊……）亚特兰大你想看吗？岛风把它们全部都录下来了所以可以借给你看哦！",
+          "Expression": "reluctant.exp3.json"
+        },
+        {
+          "Name": "interaction4",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/Conversation_5_2.mp3",
+          "Text": "黎塞留姐姐好。（黎塞留：岛风，原来今天是你当班啊。感觉如何？）",
+          "Expression": "happy.exp3.json"
+        },
+        {
+          "Name": "interaction5",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/Conversation_5_4.mp3",
+          "Text": "岛风还很好，有好好在工作，所以没问题，吧。（黎塞留：是么，那就好。看到你努力工作的身影我也会有干劲哦。）",
+          "Expression": "happy.exp3.json"
+        },
+        {
+          "Name": "interaction6",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Text": "（撒切尔：岛风！麻烦帮我结账！）……来啦！对不起，刚刚去搬货了。不过，你竟然知道今天是岛风当班。（撒切尔：因为，听到岛风的脚步声了啊，可爱的脚步声。）好厉害……屋里的脚步声都能听得到吗？撒切尔的耳朵好灵。",
+          "Expression": "happy.exp3.json",
+          "TextDuration": 10000
+        },
+        {
+          "Name": "interaction7",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/Conversation_14_2.mp3",
+          "Text": "（空想：岛~风~明天，训练结束之后，要来比一比谁的速度更快吗？）好啊，仁淀的训练完了之后对吗？",
+          "Expression": "happy.exp3.json"
+        },
+        {
+          "Name": "interaction8",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/Conversation_14_4.mp3",
+          "Text": "（空想：哼哼，这次一定要证明在相同条件下绝对是我更快。）岛风也不会输给你的。会尽全力的哦。",
+          "Expression": "happy.exp3.json"
+        },
+        {
+          "Name": "interaction9",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Text": "（岚：你好啊——！有谁在吗——！有谁在吧——！打扰了——！打扰——了——！）哇哇，吓偶一跳。小岚怎么了？（岚：那个，偶有非常紧急的事情…啊啊！笔记，笔记飞上天了！小岛风救命！）嗨哟。给，你想做这张纸上写的事情吗？那么就交给岛风吧。",
+          "Expression": "idle.exp3.json",
+          "TextDuration": 10000
+        },
+        {
+          "Name": "interaction10",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Text": "（夕立：岛风！这个粉色的看上去很好吃的东西是什么呀？）这个啊，是樱饼哦。是岛风喜欢的甜点哦。（夕立：哇，是这样啊！夕立也想吃！一起吃嘛！）唔，这样的话，等轮班结束后一起吃吧。嘿嘿，真期待呢。",
+          "Expression": "happy.exp3.json",
+          "TextDuration": 10000
+        },
+        {
+          "Name": "interaction11",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Text": "（滩风：姐姐…姐姐…有什么我能帮忙的吗？）我没问题的哟。值完班我们一起吃饭去吧。（滩风：嗯…我等着…稍微让我戳一下…我戳我戳…）滩风，岛风在工作啦，别乱摸我哦？等会儿再一起玩吧。",
+          "Expression": "reluctant.exp3",
+          "TextDuration": 10000
+        },
+        {
+          "Name": "kanban1",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/kanban1.mp3",
+          "Text": "（商店）嘿，嘿咻……我啊，在搬订购的货物啦。大家都买了好多东西呢。下次岛风要不要也买点什么呢？",
+          "Expression": "happy.exp3.json"
+        },
+        {
+          "Name": "kanban2",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/kanban2.mp3",
+          "Text": "（商店）嘿，嘿咻……我啊，在搬订购的货物啦。大家都买了好多东西呢。下次岛风要不要也买点什么呢？",
+          "Expression": "reluctant.exp3.json"
+        },
+        {
+          "Name": "kanban3",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/kanban3.mp3",
+          "Text": "（整备）听我说听我说~夕张小姐说有时间的时候就会教岛风怎样保养鱼雷发射器呢。哎嘿嘿，真期待啊…",
+          "Expression": "happy.exp3.json"
+        },
+        {
+          "Name": "kanban4",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/kanban4.mp3",
+          "Text": "（整备）听夕张小姐说，岛风的鱼雷发射器，根据使用者的不同蕴藏着许多可能性。所以我要努力才行。",
+          "Expression": "reluctant.exp3.json"
+        },
+        {
+          "Name": "kanban5",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/kanban5.mp3",
+          "Text": "（建造/开发）把这张申请书交给夕张小姐？嗯，我立刻就去！",
+          "Expression": "reluctant.exp3.json"
+        },
+        {
+          "Name": "kanban6",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/kanban6.mp3",
+          "Text": "（建造/开发）感觉研究部的大家似乎在忙些什么，好令人在意啊。但是不能打扰到她们工作，岛风会乖乖的呆在这的。",
+          "Expression": "reluctant.exp3.json"
+        },
+        {
+          "Name": "kanban7",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/kanban7.mp3",
+          "Text": "（好友）要和朋友联络吗？我知道啦，立刻转接过去。",
+          "Expression": "reluctant.exp3.json"
+        },
+        {
+          "Name": "love1",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/love1.mp3",
+          "Text": "樱花就是因为会凋零才美丽……总觉得这个想法有点寂寞呢。我认为它的美丽不仅如此啊。",
+          "Expression": "sad.exp3"
+        },
+        {
+          "Name": "love2",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/love2.mp3",
+          "Text": "一味地理性思考，又或者只依赖直觉都是不行的。只有两者兼顾，才能更好地在战斗时分析敌人的动作，让战局变得更加有利。",
+          "Expression": "reluctant.exp3"
+        },
+        {
+          "Name": "love3",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/love3.mp3",
+          "Text": "和提督君在一起心里就会变得轻飘飘的。感到暖暖的，痒痒的，真不可思议呢。",
+          "Expression": "happy.exp3"
+        },
+        {
+          "Name": "love4",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/love3.mp3",
+          "Text": "虽然心中充满了喜爱之情，但是要说出来还是有点害羞呢。所以……能牵住我的手吗？诶嘿嘿，好幸福……",
+          "Expression": "shy.exp3"
+        },
+        {
+          "Name": "love5",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/love5.mp3",
+          "Text": "提督君的膝盖坐上去好舒服哦。诶嘿嘿，这里是岛风专用的特等席呢。",
+          "Expression": "happy.exp3"
+        },
+        {
+          "Name": "love6",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/love6.mp3",
+          "Text": "怎么才能分辨什么是正确的，什么是错误的呢？岛风虽然还不明白正确是什么，但我希望我所信任的大家一定是正确的。所以，现在只要专注着一心向前！",
+          "Expression": "idle.exp3"
+        },
+        {
+          "Name": "love7",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/love7.mp3",
+          "Text": "提督君好高哦。岛风就算踮起脚尖也够不着呢。好羡慕这么大的提督君。诶？骑肩膀……？呜呜，有点难为情啊。但，但是就这一次的话……哇啊啊，好高！嘿嘿，真好玩。",
+          "Expression": "happy.exp3"
+        },
+        {
+          "Name": "love8",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/love8.mp3",
+          "Text": "为了大家的笑容想成为樱花那样的存在，岛风曾经是这么样想的。但是现在，我更想成为仅为一人而生的樱花。因为我想让他一直注视着我。提督君……不可以吗？",
+          "Expression": "reluctant.exp3"
+        },
+        {
+          "Name": "memory and pursue",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Text": "（记忆＆追逐）抓人游戏吗！岛风出发！",
+          "Expression": "happy.exp3.json",
+          "TextDuration": 3000
+        },
+        {
+          "Name": "sec1",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/sec1.mp3",
+          "Text": "（母舰）地下有种了很多植物的地方，但他们却说“果然还是种不了樱花树”。稍微有点，失望啊。",
+          "Expression": "sad.exp3.json"
+        },
+        {
+          "Name": "sec2",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/sec2.mp3",
+          "Text": "（母舰）母舰太大了，有好多地方我都没去过。要不要全部都去看一看，以备不时之需呢？",
+          "Expression": "reluctant.exp3.json"
+        },
+        {
+          "Name": "sec3",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/sec3.mp3",
+          "Text": "（商店）啊，是樱饼诶。你知道吗，樱饼是有两种的哦。你问我为什么？唔……我下次去问问大凤小姐。",
+          "Expression": "happy.exp3.json"
+        },
+        {
+          "Name": "sec4",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/sec4.mp3",
+          "Text": "（商店）买东西~买东西~要买点什么呢~诶？这是买东西之歌哦？提督君也唱唱看吗？",
+          "Expression": "happy.exp3.json"
+        },
+        {
+          "Name": "sec5",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/sec5.mp3",
+          "Text": "（整备）岛风的舰装稍微有点特殊。如果自己也能维护就好了呢。有没有办法呢……",
+          "Expression": "reluctant.exp3.json"
+        },
+        {
+          "Name": "sec6",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/sec6.mp3",
+          "Text": "（整备）岛风的鱼雷发射器也能当做盾来用哦。虽然搞不懂是怎么做到的，但很厉害对吧？",
+          "Expression": "reluctant.exp3.json"
+        },
+        {
+          "Name": "sec7",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/sec7.mp3",
+          "Text": "（提督室）提督君的房间待着真舒服啊……太让人放松了，我都想睡觉了……",
+          "Expression": "reluctant.exp3.json"
+        },
+        {
+          "Name": "sec8",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/sec8.mp3",
+          "Text": "（提督室）那个那个，我带了点心过来哦。岛风想和提督君一边聊天一边吃呢……可以吗？嗯，那我去泡茶！",
+          "Expression": "happy.exp3.json"
+        },
+        {
+          "Name": "sec9",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/sec9.mp3",
+          "Text": "（建造/开发）岛风的发饰是舰装哦。亚特兰大的那个好像是雷达呢，岛风的这个会有什么样的功能呢？",
+          "Expression": "idle.exp3.json"
+        },
+        {
+          "Name": "sec10",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/sec10.mp3",
+          "Text": "（建造/开发）新的舰装吗……岛风想要大容量燃料罐呢。能增加续航时间的话，能做的事也会变多呢。",
+          "Expression": "idle.exp3.json"
+        },
+        {
+          "Name": "sec11",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/sec11.mp3",
+          "Text": "（好友）提督君的朋友？那岛风也打个招呼吧。大家好啊——！",
+          "Expression": "happy.exp3.json"
+        },
+        {
+          "Name": "sec12",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/sec12.mp3",
+          "Text": "（出击界面）我们在地图的这里对吧。接下来要去哪里呢？",
+          "Expression": "idle.exp3.json"
+        },
+        {
+          "Name": "sec13",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/sec13.mp3",
+          "Text": "（展开作战地图）岛风会安安静静的，所以能让我也一起参加吗？嗯，我会好好听大家说的话来学习的。",
+          "Expression": "reluctant.exp3.json"
+        },
+        {
+          "Name": "sec14",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/sec14.mp3",
+          "Text": "（远征）要派谁去远征呢？",
+          "Expression": "idle.exp3.json"
+        },
+        {
+          "Name": "sec15",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/sec15.mp3",
+          "Text": "（远征）收到了各种委托？那就一个一个解决吧。",
+          "Expression": "idle.exp3.json"
+        },
+        {
+          "Name": "time1",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/time1.mp3",
+          "Text": "（6-9点）提督君早啊——！天亮了哦——该起床啦。嗯，那么， 今天也请多指教咯。",
+          "Expression": "idle.exp3.json"
+        },
+        {
+          "Name": "time2",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/time2.mp3",
+          "Text": "（9-12点）有什么岛风能做的事的话就请说哦。送东西啊，帮忙啊之类的都没问题的哦。",
+          "Expression": "idle.exp3.json"
+        },
+        {
+          "Name": "time3",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/time3.mp3",
+          "Text": "（12-15点）午饭时间到啦。今天要吃什么呢？食堂里的无论什么都很好吃好难选啊。",
+          "Expression": "happy.exp3.json"
+        },
+        {
+          "Name": "time4",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/time4.mp3",
+          "Text": "（11-13点）整理文件？交给我吧，很快就能做完的！",
+          "Expression": "idle.exp3.json"
+        },
+        {
+          "Name": "time5",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/time5.mp3",
+          "Text": "（14-17点）哎，去训练也没关系吗？可工作怎么办啊……？唔，我明白了，回来以后我会加油完成的。那么提督君，我出发啦！",
+          "Expression": "idle.exp3.json"
+        },
+        {
+          "Name": "time6",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/time6.mp3",
+          "Text": "（14-17点）这种情况下……以岛风的速度应该是能避开的……啊！对不起，我看战斗报告书看入迷了。",
+          "Expression": "reluctant.exp3.json"
+        },
+        {
+          "Name": "time7",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/time7.mp3",
+          "Text": "（17-19点）我这里有大凤小姐送我的茶。提督君也休息一下一起来喝点吧。",
+          "Expression": "idle.exp3.json"
+        },
+        {
+          "Name": "time8",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/time8.mp3",
+          "Text": "（17-19点）提督君，资料我整理好了哦。嘿嘿，很快吧？",
+          "Expression": "reluctant.exp3.json"
+        },
+        {
+          "Name": "time9",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/time9.mp3",
+          "Text": "（19-23点）今天的工作就这些了吗？那么，我稍微去外面跑一跑好了……提督君也一起来吗？",
+          "Expression": "reluctant.exp3.json"
+        },
+        {
+          "Name": "time10",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/time10.mp3",
+          "Text": "（20-22点）泡澡~泡澡~哎？提督君也顺路吗？那么就一起走一段吧，let's go！",
+          "Expression": "happy.exp3.json"
+        },
+        {
+          "Name": "time11",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/time11.mp3",
+          "Text": "（23-1点）提督君……该睡觉啦……岛风已经好困了……",
+          "Expression": "sad.exp3.json"
+        },
+        {
+          "Name": "time12",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/time12.mp3",
+          "Text": "（23-6点）偶尔会有晚上睡不着的时候……总觉得很寂寞。提督君，能紧紧地抱住岛风吗？嗯，很暖和哦……",
+          "Expression": "shy.exp3.json"
+        },
+        {
+          "Name": "uni1",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/uni1.mp3",
+          "Text": "想成为别人的助力，想有所成就。什么也做不到的话，就会成为“没用的人”，岛风不想变成这样……",
+          "Expression": "idle.exp3.json"
+        },
+        {
+          "Name": "uni2",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/uni2.mp3",
+          "Text": "为了大家，也为了自己，我一定要变强。不对……是不变强不行。岛风一定要比迄今为止的任何时刻都，比其他任何人都……",
+          "Expression": "idle.exp3.json"
+        },
+        {
+          "Name": "uni3",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/uni3.mp3",
+          "Text": "说不定会有看起来跟敌人轮廓差不多的小岛存在呢。为了不搞错目标，一定要好好确认呢。",
+          "Expression": "idle.exp3.json"
+        },
+        {
+          "Name": "uni4",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/uni4.mp3",
+          "Text": "果然驱逐舰就必须要拖入鱼雷战才……呜啊，提督？刚才在想事情啦，吓了我一跳。",
+          "Expression": "shy.exp3.json"
+        },
+        {
+          "Name": "uni5",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/uni5.mp3",
+          "Text": "听说樱花树下埋着尸体……呜呜，好吓人啊。今天能到提督君那里睡吗？",
+          "Expression": "sad.exp3.json"
+        },
+        {
+          "Name": "uni6",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/uni6.mp3",
+          "Text": "岛风速度很快，所以要采用能够活用这一点的战术呢。唔——去找仁淀小姐商量一下吗？",
+          "Expression": "idle.exp3.json"
+        },
+        {
+          "Name": "uni7",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/uni7.mp3",
+          "Text": "岛风的鱼雷发射器和大家的都不一样，好好利用应该就能找到只属于岛风的战斗方式……好——看来要多多尝试呢！",
+          "Expression": "idle.exp3.json"
+        },
+        {
+          "Name": "uni8",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/uni8.mp3",
+          "Text": "我找海伦娜小姐去问问有关雷达的事情哦。说不定可以找到金枪鱼……果然不太可能吗。",
+          "Expression": "reluctant.exp3.json"
+        },
+        {
+          "Name": "uni9",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/uni9.mp3",
+          "Text": "要好好利用天气，让它成为你的伙伴可是很重要的。岛风就是靠这个救下了许多人。",
+          "Expression": "reluctant.exp3.json"
+        },
+        {
+          "Name": "uni10",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/uni10.mp3",
+          "Text": "岛风相信，只要不停止思考总会有办法的。所以，到最后也不会放弃！",
+          "Expression": "reluctant.exp3.json"
+        },
+        {
+          "Name": "uni11",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/uni11.mp3",
+          "Text": "哇哇，怎么了吗提督君？",
+          "Expression": "happy.exp3.json"
+        },
+        {
+          "Name": "uni12",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/uni12.mp3",
+          "Text": "你问岛风的鱼雷发射管是怎么用的？大概就和航母她们放飞舰载机时差不多吧？只要告诉舰装——这样做，那样做——就好了。只要多加练习还能做出更复杂的动作呢。嗯，这可是岛风最自豪的装备哦。",
+          "Expression": "reluctant.exp3.json"
+        },
+        {
+          "Name": "uni13",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/uni13.mp3",
+          "Text": "我经常会和空想酱比赛跑步。她可是个好对手呢，我们总是不分胜负。为了下一次比赛，我要出去跑一跑。提督君也一起来吗？",
+          "Expression": "happy.exp3.json"
+        },
+        {
+          "Name": "uni14",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/uni14.mp3",
+          "Text": "为了更加详细了解敌人的动作，果然应该参加航母和战列舰们的训练……不过这样会妨碍到别人的吧？只是参观的话没问题？真的吗？那好呀，我这就去拜托赤城小姐和阿尔萨斯小姐。",
+          "Expression": "happy.exp3.json"
+        },
+        {
+          "Name": "uni15",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/uni15.mp3",
+          "Text": "被大家夸奖好高兴啊。诶，提督君不怎么被表扬吗？因为能做到是理所当然的？这样啊……那就让岛风来表扬你！诶？不想要摸摸头吗？好吧……",
+          "Expression": "happy.exp3.json"
+        },
+        {
+          "Name": "uni16",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/uni16.mp3",
+          "Text": "樱花才不是寂寞的植物呢。因为它可是为了让大家展现笑容才开花的。所以岛风也要活得像樱花一样。虽然一定会经历挫折，但是能为了别人的微笑再次绽放的……像樱花那样。",
+          "Expression": "sad.exp3.json"
+        },
+        {
+          "Name": "wea1",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/wea1.mp3",
+          "Text": "（>30°）今天天气好热啊。提督也觉得热吗？是啊，热成这样让人特别想吃刨冰呢。一起去吃吗！",
+          "Expression": "idle.exp3.json"
+        },
+        {
+          "Name": "wea2",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/wea2.mp3",
+          "Text": "（<5°）呜呜……有点冷啊。手套？没带所以我们干脆手牵手吧。……唉嘿嘿，真暖和呢。",
+          "Expression": "shy.exp3.json"
+        },
+        {
+          "Name": "wea3",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/wea3.mp3",
+          "Text": "（晴）嗯——天气真好。好嘞，现在正好有空，稍微跑一跑吧。那么，我出发啦！",
+          "Expression": "happy.exp3.json"
+        },
+        {
+          "Name": "wea4",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/wea4.mp3",
+          "Text": "（雨）雨下个不停呢。虽然是坏天气，但是能和提督君在一起的话，岛风也会喜欢上下雨的哦。",
+          "Expression": "idle.exp3.json"
+        },
+        {
+          "Name": "wea5",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/wea5.mp3",
+          "Text": "（雪）哇……真漂亮。提督君，我能去外面玩一玩吗？哦，那就一起去吧！快点快点！",
+          "Expression": "happy.exp3.json"
+        },
+        {
+          "Name": "wea6",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/wea6.mp3",
+          "Text": "（多云）天气不太好哎，干脆做个晴天娃娃吧。不过只做一个的话它会很寂寞的，要为它做一大堆朋友呢。",
+          "Expression": "idle.exp3.json"
+        },
+        {
+          "Name": "wea7",
+          "File": "motions/idle/shimakaze.motion3.json",
+          "Sound": "sounds/wea7.mp3",
+          "Text": "（有雾）雾天不容易看清楚东西，如果想做些什么的话要趁现在哦。",
+          "Expression": "idle.exp3.json"
+        }
+      ]
+    },
+    "Expressions": [
+      {
+        "Name": "anger.exp3",
+        "File": "expressions/anger.exp3.json"
+      },
+      {
+        "Name": "happy.exp3",
+        "File": "expressions/happy.exp3.json"
+      },
+      {
+        "Name": "idle.exp3",
+        "File": "expressions/idle.exp3.json"
+      },
+      {
+        "Name": "reluctant.exp3",
+        "File": "expressions/reluctant.exp3.json"
+      },
+      {
+        "Name": "sad.exp3",
+        "File": "expressions/sad.exp3.json"
+      },
+      {
+        "Name": "shy.exp3",
+        "File": "expressions/shy.exp3.json"
+      }
+    ]
+  },
+  "Controllers": {
+    "ParamHit": {},
+    "ParamLoop": {},
+    "KeyTrigger": {},
+    "ParamTrigger": {},
+    "AreaTrigger": {},
+    "HandTrigger": {},
+    "EyeBlink": {
+      "MinInterval": 500,
+      "MaxInterval": 6000,
+      "Enabled": true
+    },
+    "LipSync": {
+      "Gain": 5.0,
+      "Enabled": true
+    },
+    "MouseTracking": {
+      "SmoothTime": 0.15,
+      "Enabled": true
+    },
+    "AutoBreath": {
+      "Enabled": true
+    },
+    "ExtraMotion": {
+      "Enabled": true
+    },
+    "Accelerometer": {
+      "Enabled": true
+    },
+    "Microphone": {},
+    "Transform": {},
+    "FaceTracking": {
+      "Enabled": true
+    },
+    "HandTracking": {},
+    "ParamValue": {},
+    "PartOpacity": {},
+    "ArtmeshOpacity": {},
+    "ArtmeshColor": {},
+    "ArtmeshCulling": {
+      "DefaultMode": 0
+    },
+    "IntimacySystem": {}
+  },
+  "Options": {
+    "TexType": 0
+  }
+}

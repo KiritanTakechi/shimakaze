@@ -1,0 +1,207 @@
+{
+  "Type": "Live2D Pose",
+  "Groups": [
+    {
+      "Id": "MainPose",
+      "Names": [
+        { "Id": "Default", "Name": "Default Pose" },
+        { "Id": "HeadTurn", "Name": "Head Turn" }
+      ],
+      "Ids": [
+        {
+          "Id": "PARAM_ANGLE_X",
+          "Default": 0
+        },
+        {
+          "Id": "PARAM_ANGLE_Y",
+          "Default": 0
+        },
+        {
+          "Id": "PARAM_ANGLE_Z",
+          "Default": 0
+        },
+        {
+          "Id": "PARAM_BODY_ANGLE_X",
+          "Default": 0
+        },
+        {
+          "Id": "PARAM_BODY_ANGLE_Y",
+          "Default": 0
+        },
+        {
+          "Id": "PARAM_BODY_ANGLE_Z",
+          "Default": 0
+        }
+      ]
+    },
+    {
+      "Id": "FacePose",
+      "Names": [
+        { "Id": "Default", "Name": "Default Expression" },
+        { "Id": "Blink", "Name": "Blinking" }
+      ],
+      "Ids": [
+        {
+          "Id": "PARAM_EYE_L_OPEN",
+          "Default": 0
+        },
+        {
+          "Id": "PARAM_EYE_R_OPEN",
+          "Default": 0
+        },
+        {
+          "Id": "PARAM_BROW_L_Y",
+          "Default": 0
+        },
+        {
+          "Id": "PARAM_BROW_R_Y",
+          "Default": -0.04
+        },
+        {
+          "Id": "PARAM_BROW_L_X",
+          "Default": 0
+        },
+        {
+          "Id": "PARAM_BROW_R_X",
+          "Default": 0
+        },
+        {
+          "Id": "PARAM_BROW_L_ANGLE",
+          "Default": 0
+        },
+        {
+          "Id": "PARAM_BROW_R_ANGLE",
+          "Default": 0
+        },
+        {
+          "Id": "PARAM_BROW_L_FORM",
+          "Default": 0
+        },
+        {
+          "Id": "PARAM_BROW_R_FORM",
+          "Default": 0
+        },
+        {
+          "Id": "PARAM_MOUTH_FORM",
+          "Default": 0
+        },
+        {
+          "Id": "PARAM_MOUTH_OPEN_Y",
+          "Default": 0
+        },
+        {
+          "Id": "PARAM_CHEEK",
+          "Default": 0.5
+        }
+      ]
+    },
+    {
+      "Id": "AccessoryPose",
+      "Names": [
+        { "Id": "Default", "Name": "Default Accessories" },
+        { "Id": "Movement", "Name": "Accessory Movement" }
+      ],
+      "Ids": [
+        {
+          "Id": "PARAM_ARM_TURN",
+          "Default": 0.5
+        },
+        {
+          "Id": "PARAM_ARM_TURN_DOWN",
+          "Default": 0.5
+        },
+        {
+          "Id": "PARAM_ARM_TURN_DOWN_1",
+          "Default": 0.5
+        },
+        {
+          "Id": "PARAM_BOWKNOT_TURN",
+          "Default": 0.5
+        },
+        {
+          "Id": "PARAM_BAG_TURN",
+          "Default": 0.5
+        },
+        {
+          "Id": "PARAM_BELT_TURN",
+          "Default": 0.5
+        },
+        {
+          "Id": "PARAM_UMBRELLA_TRUN",
+          "Default": 0.5
+        }
+      ]
+    },
+    {
+      "Id": "EarPose",
+      "Names": [
+        { "Id": "Default", "Name": "Default Ear Position" },
+        { "Id": "Move", "Name": "Ear Movement" }
+      ],
+      "Ids": [
+        {
+          "Id": "PARAM_EAR_ANGLE_Z",
+          "Default": 0.5
+        },
+        {
+          "Id": "PARAM_EAR_L_SHAKRE",
+          "Default": 0.5
+        }
+      ]
+    },
+    {
+      "Id": "FireEffect",
+      "Names": [
+        { "Id": "Default", "Name": "Default Fire" },
+        { "Id": "Active", "Name": "Active Fire" }
+      ],
+      "Ids": [
+        {
+          "Id": "PARAM_FIRE_MOVE",
+          "Default": 0.96
+        },
+        {
+          "Id": "PARAM_FIRE_SIDE",
+          "Default": 0.5
+        },
+        {
+          "Id": "PARAM_FIRE_TURN",
+          "Default": 0.5
+        }
+      ]
+    },
+    {
+      "Id": "FlowerPose",
+      "Names": [
+        { "Id": "Default", "Name": "Default Flowers" },
+        { "Id": "Flying", "Name": "Flying Flowers" }
+      ],
+      "Ids": [
+        {
+          "Id": "PARAM_FLOWER_FLY1",
+          "Default": 1
+        },
+        {
+          "Id": "PARAM_FLOWER_FLY2",
+          "Default": 1
+        },
+        {
+          "Id": "PARAM_FLOWER_FLY3",
+          "Default": 1
+        },
+        {
+          "Id": "PARAM_FLOWER_FLY4",
+          "Default": 1
+        },
+        {
+          "Id": "PARAM_FLOWER_FLY5",
+          "Default": 1
+        },
+        {
+          "Id": "PARAM_FLOWER_FLY6",
+          "Default": 1
+        }
+      ]
+    }
+  ]
+}
