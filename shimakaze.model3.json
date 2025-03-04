@@ -18,20 +18,23 @@
           "File": "motions/idle/shimakaze.motion3.json",
           "Sound": "sounds/start1.mp3",
           "Text": "啊，提督君你回来啦。那今天也要和岛风一起努力哦。",
-          "Expression": "happy.exp3"
+          "Expression": "happy.exp3",
+          "Enabled": false
         },
         {
           "Name": "start2",
           "File": "motions/idle/shimakaze.motion3.json",
           "Sound": "sounds/start2.mp3",
           "Text": "你好，初次见面我是岛风哦。啊——不对，我是岛风型的一号舰岛风，您好。不需要那么毕恭毕敬？谢谢。那好，今后也请多多关照。哎呀，又不小心说客套话了……嘿嘿，失误失误。",
-          "Expression": "reluctant.exp3"
+          "Expression": "reluctant.exp3",
+          "PostCommand": "motions disable Start:start2;motions enable Start:start1"
         }
       ],
       "Idle": [
         {
           "Name": "idle",
           "File": "motions/idle/shimakaze.motion3.json",
+          "WrapMode": 1,
           "Expression": "idle.exp3"
         }
       ],
@@ -252,77 +255,88 @@
           "File": "motions/idle/shimakaze.motion3.json",
           "Text": "大凤小姐，那个小小的袋子是什么呀？（大凤：这叫做护身符……是用来保佑大家的安全和健康的。）真好啊……岛风也想要。（大凤：那就一起来做吧。我也想给努力到现在的提督大人做一个。）",
           "Expression": "happy.exp3.json",
-          "TextDuration": 10000
+          "TextDuration": 10000,
+          "Enabled": false
         },
         {
           "Name": "interaction2",
           "File": "motions/idle/shimakaze.motion3.json",
           "Sound": "sounds/Conversation_12_2.mp3",
           "Text": "（亚特兰大：附赠海洋战队弗莱彻连者卡片的零食……岛风酱喜欢这个动画吗？）嗯，最喜欢了。这是现在最有人气的英雄动画哦！",
-          "Expression": "happy.exp3.json"
+          "Expression": "happy.exp3.json",
+          "Enabled": false
         },
         {
           "Name": "interaction3",
           "File": "motions/idle/shimakaze.motion3.json",
           "Sound": "sounds/Conversation_12_4.mp3",
           "Text": "（亚特兰大：哦……英雄动画啊……）亚特兰大你想看吗？岛风把它们全部都录下来了所以可以借给你看哦！",
-          "Expression": "reluctant.exp3.json"
+          "Expression": "reluctant.exp3.json",
+          "Enabled": false
         },
         {
           "Name": "interaction4",
           "File": "motions/idle/shimakaze.motion3.json",
           "Sound": "sounds/Conversation_5_2.mp3",
           "Text": "黎塞留姐姐好。（黎塞留：岛风，原来今天是你当班啊。感觉如何？）",
-          "Expression": "happy.exp3.json"
+          "Expression": "happy.exp3.json",
+          "Enabled": false
         },
         {
           "Name": "interaction5",
           "File": "motions/idle/shimakaze.motion3.json",
           "Sound": "sounds/Conversation_5_4.mp3",
           "Text": "岛风还很好，有好好在工作，所以没问题，吧。（黎塞留：是么，那就好。看到你努力工作的身影我也会有干劲哦。）",
-          "Expression": "happy.exp3.json"
+          "Expression": "happy.exp3.json",
+          "Enabled": false
         },
         {
           "Name": "interaction6",
           "File": "motions/idle/shimakaze.motion3.json",
           "Text": "（撒切尔：岛风！麻烦帮我结账！）……来啦！对不起，刚刚去搬货了。不过，你竟然知道今天是岛风当班。（撒切尔：因为，听到岛风的脚步声了啊，可爱的脚步声。）好厉害……屋里的脚步声都能听得到吗？撒切尔的耳朵好灵。",
           "Expression": "happy.exp3.json",
-          "TextDuration": 10000
+          "TextDuration": 10000,
+          "Enabled": false
         },
         {
           "Name": "interaction7",
           "File": "motions/idle/shimakaze.motion3.json",
           "Sound": "sounds/Conversation_14_2.mp3",
           "Text": "（空想：岛~风~明天，训练结束之后，要来比一比谁的速度更快吗？）好啊，仁淀的训练完了之后对吗？",
-          "Expression": "happy.exp3.json"
+          "Expression": "happy.exp3.json",
+          "Enabled": false
         },
         {
           "Name": "interaction8",
           "File": "motions/idle/shimakaze.motion3.json",
           "Sound": "sounds/Conversation_14_4.mp3",
           "Text": "（空想：哼哼，这次一定要证明在相同条件下绝对是我更快。）岛风也不会输给你的。会尽全力的哦。",
-          "Expression": "happy.exp3.json"
+          "Expression": "happy.exp3.json",
+          "Enabled": false
         },
         {
           "Name": "interaction9",
           "File": "motions/idle/shimakaze.motion3.json",
           "Text": "（岚：你好啊——！有谁在吗——！有谁在吧——！打扰了——！打扰——了——！）哇哇，吓偶一跳。小岚怎么了？（岚：那个，偶有非常紧急的事情…啊啊！笔记，笔记飞上天了！小岛风救命！）嗨哟。给，你想做这张纸上写的事情吗？那么就交给岛风吧。",
           "Expression": "idle.exp3.json",
-          "TextDuration": 10000
+          "TextDuration": 10000,
+          "Enabled": false
         },
         {
           "Name": "interaction10",
           "File": "motions/idle/shimakaze.motion3.json",
           "Text": "（夕立：岛风！这个粉色的看上去很好吃的东西是什么呀？）这个啊，是樱饼哦。是岛风喜欢的甜点哦。（夕立：哇，是这样啊！夕立也想吃！一起吃嘛！）唔，这样的话，等轮班结束后一起吃吧。嘿嘿，真期待呢。",
           "Expression": "happy.exp3.json",
-          "TextDuration": 10000
+          "TextDuration": 10000,
+          "Enabled": false
         },
         {
           "Name": "interaction11",
           "File": "motions/idle/shimakaze.motion3.json",
           "Text": "（滩风：姐姐…姐姐…有什么我能帮忙的吗？）我没问题的哟。值完班我们一起吃饭去吧。（滩风：嗯…我等着…稍微让我戳一下…我戳我戳…）滩风，岛风在工作啦，别乱摸我哦？等会儿再一起玩吧。",
           "Expression": "reluctant.exp3",
-          "TextDuration": 10000
+          "TextDuration": 10000,
+          "Enabled": false
         },
         {
           "Name": "kanban1",
@@ -434,7 +448,8 @@
           "File": "motions/idle/shimakaze.motion3.json",
           "Text": "（记忆＆追逐）抓人游戏吗！岛风出发！",
           "Expression": "happy.exp3.json",
-          "TextDuration": 3000
+          "TextDuration": 3000,
+          "Enabled": false
         },
         {
           "Name": "sec1",
@@ -850,7 +865,9 @@
       "Enabled": true
     },
     "HandTracking": {},
-    "ParamValue": {},
+    "ParamValue": {
+      "Enabled": true
+    },
     "PartOpacity": {},
     "ArtmeshOpacity": {},
     "ArtmeshColor": {},
